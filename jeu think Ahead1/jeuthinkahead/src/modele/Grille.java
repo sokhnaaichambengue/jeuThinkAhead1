@@ -27,7 +27,7 @@ public void cases() {
 			val[i]=sc.nextInt();
 			System.out.println("Saisir les joueurs");
 			j1[i][j]=sc.nextInt();
-			if("j1[i][j"=="array[i][j]") {
+		/*erreur "num[i]"*/	if("j1[i][j"=="array[i][j]") {
 				System.out.println("le choix ne porte pas au niveau des lignes ");
 			}
 			else {
@@ -61,7 +61,7 @@ public int getCases(int position) {
 	
 }
 public void selectioncase(int position,int joueur) {
-	if("ca[i][j]"== "j1[i][j]") {
+	/*erreur "num[i]"*/ if("ca[i][j]"== "j1[i][j]") {
 		System.out.println("fin du jeu");
 	}
 	else {
