@@ -27,7 +27,8 @@ public int getCasesLibre(int caselibre) {
 	Scanner sc =new Scanner(System.in);
 	System.out.println("saisir encore les numeros");
 	num[i]=sc.nextInt();
-	if("num[i]"!=null) {
+		
+/*erreur "num[i]"*/	if("num[i]"!=null) {
 		System.out.println("ne choisie pas la case");
 	}
 
@@ -46,7 +47,7 @@ for(int i=0;i<cases.length;i++) {
 
 	cases[i][j]=sc.nextInt();
 		System.out.println("Saisir les valeurs maximales");
-		if("cases[i][j]"==null && cases[i][j]>max[i][j]) {
+	/*erreur "num[i]"*/	if("cases[i][j]"==null && cases[i][j]>max[i][j]) {
 			cases[i][j]=max[i][j];
 			max[i][j]=sc.nextInt();
 	}
